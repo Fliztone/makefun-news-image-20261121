@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { width:1024px; height:1024px; background:#0d1117; color:#f0f0f0;
+         font-family:'Segoe UI',Arial,sans-serif; overflow:hidden; }
+  .masthead { background:#b71c1c; padding:14px 30px 12px 30px; text-align:center; }
+  .masthead .brand { font-size:20px; font-weight:800; letter-spacing:5px; color:#fff; }
+  .masthead .date { font-size:40px; font-weight:900; color:#fff; margin-top:2px; }
+  .masthead .sub { font-size:16px; color:#ffcdd2; margin-top:2px; letter-spacing:3px; font-weight:700; }
+  .feat { display:grid; grid-template-columns:1fr 1fr 1fr; gap:10px; padding:12px 16px 8px 16px; }
+  .card { background:#161b22; border-top:5px solid #b71c1c; border-radius:6px; padding:10px 12px; min-height:196px; }
+  .card .icon { font-size:30px; }
+  .card .kicker { font-size:12px; font-weight:700; color:#ef9a9a; letter-spacing:1px; text-transform:uppercase; margin:4px 0; }
+  .card .headline { font-size:17px; font-weight:800; line-height:1.2; color:#fff; }
+  .card .detail { font-size:13px; color:#b0bec5; margin-top:6px; line-height:1.35; }
+  .wallhead { padding:2px 16px 6px 16px; font-size:14px; font-weight:800; letter-spacing:2px; color:#ffcc80; }
+  .wall { display:grid; grid-template-columns:1fr 1fr 1fr; gap:4px 12px; padding:0 16px; }
+  .hl { font-size:13.5px; line-height:1.3; color:#e0e0e0; padding:3px 0; border-bottom:1px solid #222; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .hl b { font-weight:800; }
+  .us { color:#64b5f6; } .me { color:#ff8a65; } .eu { color:#a5d6a7; }
+  .ap { color:#ce93d8; } .mk { color:#ffd54f; } .sp { color:#80deea; }
+  .footer { text-align:center; padding:8px 20px 0 20px; font-size:12px; color:#78909c; }
+  .footer .judge { color:#a5d6a7; font-size:13px; margin-top:3px; }
+</style></head>
+<body>
+  <div class="masthead">
+    <div class="brand">WORLD NEWS &bull; ONE DAY IN ONE IMAGE</div>
+    <div class="date">Saturday, 21 November 2026</div>
+    <div class="sub">30 STORIES &bull; 6 REGIONS &bull; ALL REPORTED THIS DAY</div>
+  </div>
+  <div class="feat">
+    <div class="card">
+      <div class="icon">&#128165;</div>
+      <div class="kicker">Gulf &bull; US-Iran on the brink</div>
+      <div class="headline">IRGC hits US bases, downs drone; Trump threatens strikes over dirty-bomb plot</div>
+      <div class="detail">Bahrain reports attacks. Iran unveils underground missile city. CENTCOM denies F-16 hit. (ToI, AP, Anadolu, APA)</div>
+    </div>
+    <div class="card">
+      <div class="icon">&#128148;</div>
+      <div class="kicker">Gaza &bull; Aid convoy hit</div>
+      <div class="headline">Israeli strike kills 3 food distributors in Gaza City</div>
+      <div class="detail">Bus hit on Al-Sinaa St, Tel Al-Hawa. Funerals held same day. (AP, APA, MEM)</div>
+    </div>
+    <div class="card">
+      <div class="icon">&#128737;</div>
+      <div class="kicker">Washington &bull; Cyber chaos</div>
+      <div class="headline">FBI crime database breached; Trump fires cyber chief Cairncross</div>
+      <div class="detail">NCIC compromised, 2nd FBI breach this year. Outages hit flights, banks, Microsoft. (Al Jazeera, Japan Times, Fox)</div>
+    </div>
+    <div class="card">
+      <div class="icon">&#127963;</div>
+      <div class="kicker">Brussels &bull; EU budget fight</div>
+      <div class="headline">EU proposes big-tech tax to fund next budget</div>
+      <div class="detail">Costa draft eases member dues. Leaders meet Brussels next week. (DW, Hindu)</div>
+    </div>
+    <div class="card">
+      <div class="icon">&#128200;</div>
+      <div class="kicker">Markets &bull; AI trade cracks</div>
+      <div class="headline">Nasdaq negative for 2026 as AI sell-off deepens; Trump threatens data-center tax</div>
+      <div class="detail">Worst week since 2022. Nvidia turmoil, Huang out. (NPR, CBS, NYT)</div>
+    </div>
+    <div class="card">
+      <div class="icon">&#10060;</div>
+      <div class="kicker">Europe &bull; Russia squeezed</div>
+      <div class="headline">Denmark expels Russian attache, halts visas; Poland bars Russian skaters</div>
+      <div class="detail">Merz seeks 360-degree Qatar pact. (Anadolu, Pravda)</div>
+    </div>
+  </div>
+  <div class="wallhead">MORE HEADLINES FROM 21 NOVEMBER 2026</div>
+  <div class="wall">
+    <div class="hl"><b class="me">GULF</b> Iran strikes tankers in Hormuz (AP)</div>
+    <div class="hl"><b class="me">GULF</b> Iran open to Hormuz talks with US (Pravda)</div>
+    <div class="hl"><b class="me">GULF</b> Bushehr nuclear units under build (Pravda)</div>
+    <div class="hl"><b class="us">USA</b> Trump bars US data centers abroad (NYT)</div>
+    <div class="hl"><b class="us">USA</b> Palisades fire arsonist convicted (NewsCura)</div>
+    <div class="hl"><b class="us">USA</b> Emergency-prep spending surges (CNBC)</div>
+    <div class="hl"><b class="us">USA</b> Vance skips summit over outages (CNBC)</div>
+    <div class="hl"><b class="us">USA</b> 18,000 flights halted by outages (JT)</div>
+    <div class="hl"><b class="us">USA</b> Microsoft outage hits millions (JT)</div>
+    <div class="hl"><b class="us">USA</b> Davies interim cyber director (ET)</div>
+    <div class="hl"><b class="us">USA</b> Shotguns tested vs FPV drones (Pravda)</div>
+    <div class="hl"><b class="us">USA</b> Valley pivots after blue wave (Guardian)</div>
+    <div class="hl"><b class="mk">VOTE</b> Dems take Congress, eye AI rules (NPR)</div>
+    <div class="hl"><b class="mk">VOTE</b> Hinojosa stuns Texas governor race (NPR)</div>
+    <div class="hl"><b class="mk">CHIPS</b> Nvidia chips reached China via SG (ET)</div>
+    <div class="hl"><b class="mk">CHIPS</b> Singapore backs US chip checks (ET)</div>
+    <div class="hl"><b class="ap">ASIA</b> Canada-China tariff deal to 2028 (Reuters)</div>
+    <div class="hl"><b class="ap">ASIA</b> M6.8 quake hits Banda Sea (GFZ)</div>
+    <div class="hl"><b class="ap">ASIA</b> Aliyev: Vietnam strategic partner (APA)</div>
+    <div class="hl"><b class="eu">EUROPE</b> Merz-Qatar 360 pact push (Anadolu)</div>
+    <div class="hl"><b class="sp">SPORT</b> Fulham 1-1 Man City (Athletic)</div>
+    <div class="hl"><b class="sp">SPORT</b> NCAA Saturday: UGA, Utah win (PSS)</div>
+    <div class="hl"><b class="sp">SPORT</b> NHL/NFL full Saturday slate (PSS)</div>
+    <div class="hl"><b class="us">MEDIA</b> Tech cash behind Visegrad24 (Wired)</div>
+  </div>
+  <div class="footer">
+    Sources: AP &bull; Anadolu &bull; ToI &bull; Al Jazeera &bull; DW &bull; NPR &bull; NYT &bull; CBS &bull; CNBC &bull; Guardian &bull; JT &bull; ET &bull; APA &bull; MEM &bull; Reuters &bull; GFZ &bull; Athletic &mdash; all 21 Nov 2026
+    <div class="judge">Judge: 30 verified 21-Nov stories, 6 regions &mdash; Gulf, Gaza, US cyber, EU, markets, Asia, sport. Saturday 21 November 2026.</div>
+  </div>
+</body></html>
